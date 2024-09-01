@@ -89,7 +89,8 @@ Op("GetQuestBossFun",true)
 local Library = loadstring(game:HttpGet("https://pst.innomi.net/paste/cjayku54donghnc33mkjdff3/raw"))()
 
 local Window = Library:CreateWindow({
-	Credit = "pindummy"
+    Credit = "Punfevpu",
+    BackgroundColor = Color3.fromRGB(0, 0, 0)  -- Set background to black
 })
 
 local Page1 = Window:AddPage({
@@ -2121,7 +2122,7 @@ task.spawn(function()
 	end
 end)
 Library:Notify({
-	Title = "Dummy Hub",
+	Title = "Xervice HUB",
 	Desc = "Load Script Success in "..string.format("%.2f",tick() - LoadingTime).." secs",
 	Time = 8
 })
